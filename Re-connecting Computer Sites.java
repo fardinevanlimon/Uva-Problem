@@ -11,7 +11,7 @@ public class Main {
             this.v = v;
         }
 
-        @Override
+        // Comparable interface method without @Override
         public int compareTo(Link other) {
             return this.v - other.v;
         }
